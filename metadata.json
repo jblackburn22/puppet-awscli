@@ -1,6 +1,6 @@
 {
   "name": "jdowning/awscli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "https://github.com/justindowning/puppet-awscli",
   "author": "Justin Downing",
   "license": "Apache License, Version 2.0",
@@ -11,6 +11,10 @@
     {
       "name": "stahnma/epel",
       "version_requirement": ">= 0.1.0"
+    },
+    {
+      "name": "stankevich-python",
+      "version_requirement": ">= 1.7.9"
     }
   ],
   "operatingsystem_support": [
@@ -40,6 +44,18 @@
       "operatingsystemrelease": [
         "5",
         "6"
+      ]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "20"
+      ]
+    },
+    {
+      "operatingsystem": "Amazon",
+      "operatingsystemrelease": [
+        "3"
       ]
     },
     {
